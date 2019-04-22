@@ -1,0 +1,59 @@
+{
+	"name": "@minhtuanchannhan/webpack-boilerplate",
+	"version": "1.0.0",
+	"description": "This is a boilerplate for frontend developer with webpack.",
+	"main": "index.js",
+	"scripts": {
+		"build": "webpack --mode=production --colors",
+		"dev": "webpack --mode=development",
+		"start": "webpack-dev-server --progress --hide-modules --mode development",
+		"lint": "eslint *.js",
+		"lint-fix": "eslint --fix *.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/minhtuanchannhan/webpack-boilerplate"
+	},
+	"keywords": [
+		"minhtuanchannhan",
+		"webpack-boilerplate",
+		"webpack",
+		"boilerplate"
+	],
+	"author": "Tuan Le Minh <minhtuanchannhan@gmail.com>",
+	"license": "MIT",
+	"dependencies": {
+		"bootstrap": "^4.2.1",
+		"jquery": "^3.3.1",
+		"popper.js": "^1.14.7"
+	},
+	"devDependencies": {
+		"autoprefixer": "^9.4.7",
+		"babel-cli": "^6.26.0",
+		"babel-core": "^6.26.3",
+		"babel-loader": "^8.0.5",
+		"babel-preset-es2015": "^6.24.1",
+		"browser-sync": "^2.26.3",
+		"browser-sync-webpack-plugin": "^2.2.2",
+		"copy-webpack-plugin": "^4.6.0",
+		"css-loader": "^2.1.0",
+		"eslint": "^5.12.1",
+		"exports-loader": "^0.7.0",
+		"html-webpack-plugin": "^3.2.0",
+		"image-webpack-loader": "^4.6.0",
+		"mini-css-extract-plugin": "^0.5.0",
+		"node-sass": "^4.11.0",
+		"optimize-css-assets-webpack-plugin": "^5.0.1",
+		"postcss-loader": "^3.0.0",
+		"precss": "^4.0.0",
+		"pug": "^2.0.3",
+		"pug-loader": "^2.4.0",
+		"sass-loader": "^7.1.0",
+		"style-loader": "^0.23.1",
+		"uglifyjs-webpack-plugin": "^2.1.1",
+		"webpack": "^4.29.0",
+		"webpack-cli": "^3.2.1",
+		"webpack-dev-server": "^3.1.14"
+	}
+}
